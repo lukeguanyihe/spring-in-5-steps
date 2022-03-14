@@ -10,15 +10,13 @@ import org.springframework.stereotype.Component;
 public class SomeCdiBusiness {
 	
 	@Inject
-	SomeCdiDao someCDIDAO;
+	SomeCdiDao someCdiDao;
 
 	public SomeCdiDao getSomeCDIDAO() {
-		return someCDIDAO;
+		return someCdiDao;
 	}
 
-	public void setSomeCDIDAO(SomeCdiDao someCDIDAO) {
-		this.someCDIDAO = someCDIDAO;
+	public void setSomeCDIDAO(SomeCdiDao someCdiDao) {
+		this.someCdiDao = someCdiDao;
 	}
-	
-	
 }

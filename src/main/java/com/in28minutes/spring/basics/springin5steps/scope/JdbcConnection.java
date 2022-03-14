@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class JdbcConnection {
 	
-	@Autowired
+//	@Autowired
 	public JdbcConnection() {
 		System.out.println("JDBC connection");
 	}

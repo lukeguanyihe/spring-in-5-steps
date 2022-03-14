@@ -8,7 +8,7 @@ public class ComponentDAO {
 	@Autowired
 	ComponentJdbcConnection jdbcConnection;
 
-	public ComponentJdbcConnection getComponentJdbcConnection() {
+	public ComponentJdbcConnection getJdbcConnection() {
 		return jdbcConnection;
 	}
 
