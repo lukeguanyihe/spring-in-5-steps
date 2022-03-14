@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 
 // new request, create a new JDBC connection
+// dependency is a prototype. The bean PersonDAO using it is not a prototype, use proxy
 @Scope(value=ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class JdbcConnection {
 	
