@@ -17,4 +17,4 @@
     		<property name="xmlJdbcConnection" ref="xmlJdbcConnection"/>
     </bean>
 
-</beans>
+</beans> 
